@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Newsfeed App
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Newsfeed App provides users with the latest news updates from across India. By leveraging powerful API integrations, the app fetches top headlines and trending news from various categories such as business, sports, technology, and entertainment. Users can customize their news experience with keyword searches and source filters to get the most relevant updates tailored to their interests.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Top Headlines**: View the latest top headlines from various categories.
+- **Category Selection**: Filter news by categories like business, sports, technology, etc.
+- **Keyword Search**: Search for news articles using specific keywords.
+- **Source Filter**: Filter news by specific news sources like BBC News, CNN, Times of India, etc.
+- **Weather Updates**: Get current weather information for major Indian cities and search for weather updates by city name.
+- **Pagination**: Navigate through pages of news articles for more extensive coverage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: Front-end library for building the user interface.
+- **Axios**: Promise-based HTTP client for making API requests.
+- **News API**: Source of news articles.
+- **OpenWeatherMap API**: Source of weather data.
+- **Bootstrap**: Front-end framework for styling and layout.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/newsfeed-app.git
+   cd newsfeed-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Set up environment variables:**
+   Create a `.env` file in the root directory and add your API keys:
+   ```sh
+   REACT_APP_NEWS_API_KEY=your_news_api_key
+   REACT_APP_WEATHER_API_KEY=your_weather_api_key
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Run the app:**
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+## Acknowledgements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [News API](https://newsapi.org/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [Bootstrap](https://getbootstrap.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
