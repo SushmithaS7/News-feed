@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FetchData from "./components/fetchData";
+import World from "./components/World";
+import Weather from "./components/Weather";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route   path ='/technology' element={<FetchData cat="technology" />}/>
         <Route   path ='/sports' element={<FetchData cat="sports" />}/>
         <Route   path ='/science' element={<FetchData cat="science" />}/>
+        <Route   path ='/world' element={<World />}/>
+        <Route   path='/weather' element={<Weather/>}/>
       </Routes>
       </Router>
       
